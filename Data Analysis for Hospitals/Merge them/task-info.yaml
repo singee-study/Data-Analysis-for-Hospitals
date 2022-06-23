@@ -1093,6 +1093,9 @@ files:
     326,prenatal,,31.0,1.71,74.0,25.3,pregnancy,t,t,t,,f,1.0,2.0
     327,prenatal,,25.0,1.8,82.0,25.4,pregnancy,t,t,t,,f,1.0,3.0
   learner_created: false
-feedback_link: https://hyperskill.org/projects/152/stages/802/implement#comment
-status: Unchecked
+feedback_link: https://hyperskill.org/learn/step/12047#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 23 Jun 2022 05:57:29 UTC
 record: -1
