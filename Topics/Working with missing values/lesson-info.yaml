@@ -1,3 +1,6 @@
 content:
 - Theory
 - Calculate proportions of NaNs
+- Actions with NaNs
+- Drop rows
+- How many columns have NaNs
