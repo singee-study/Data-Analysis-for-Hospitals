@@ -4,3 +4,4 @@ content:
 - Actions with NaNs
 - Drop rows
 - How many columns have NaNs
+- Drop NaNs
