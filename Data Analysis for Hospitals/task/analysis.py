@@ -12,4 +12,17 @@ df3.rename({'Hospital': 'hospital', 'Male/female': 'gender'}, axis=1, inplace=Tr
 df = pd.concat([df1, df2, df3], ignore_index=True)
 df.drop(columns=['Unnamed: 0'], inplace=True)
 
+df.dropna(axis=0, how='all', inplace=True)
+
+df['gender'].replace({
+    "female": "f",
+    "woman": "f",
+    "male": "m",
+    "man": "m",
+}, inplace=True)
+df['gender'].fillna('f', inplace=True)
+
+df.fillna(0, inplace=True)
+
+print("Data shape:", df.shape)
 print(df.sample(n=20, random_state=30))

@@ -1,5 +1,11 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
+options:
+- text: do nothing and proceed to train a model
+- text: drop columns with NaNs
+- text: drop rows with NaNs
+- text: drop rows that consist of more than half of missing values and fill remaining
+    NaNs with certain values
 files:
 - name: main.py
   visible: true

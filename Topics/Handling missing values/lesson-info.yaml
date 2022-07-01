@@ -4,3 +4,4 @@ content:
 - Handle missing values
 - Guess the meaningful replacement
 - Replace with the mode
+- Fill with a group average
