@@ -3,3 +3,4 @@ content:
 - Summarizing numeric columns
 - Handling missing values
 - Summarizing categorical columns
+- Reshaping and Pivot Tables
