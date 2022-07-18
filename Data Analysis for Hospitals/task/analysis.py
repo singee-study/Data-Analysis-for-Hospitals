@@ -24,5 +24,15 @@ df['gender'].fillna('f', inplace=True)
 
 df.fillna(0, inplace=True)
 
-print("Data shape:", df.shape)
-print(df.sample(n=20, random_state=30))
+print("The answer to the 1st question is", df.hospital.value_counts().idxmax())
+
+df_general = df[df.hospital == 'general']
+print("The answer to the 2nd question is", round(df_general.diagnosis.value_counts()['stomach'] / df_general.shape[0], 3))
+
+df_sports = df[df.hospital == 'sports']
+print("The answer to the 3rd question is", round(df_sports.diagnosis.value_counts()['dislocation'] / df_sports.shape[0], 3))
+
+print("The answer to the 4th question is", df_general.age.median() - df_sports.age.median())
+
+df_t = df.pivot_table(index='hospital', columns='blood_test', values='age', aggfunc='count', fill_value=0)['t']
+print("The answer to the 5th question is", df_t.idxmax(), ",", df_t.max(), "blood tests")

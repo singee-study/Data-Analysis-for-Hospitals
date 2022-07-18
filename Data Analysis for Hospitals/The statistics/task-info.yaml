@@ -1071,5 +1071,8 @@ files:
     327,prenatal,,25.0,1.8,82.0,25.4,pregnancy,t,t,t,,f,1.0,3.0
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/12049#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 18 Jul 2022 12:00:08 UTC
 record: -1
