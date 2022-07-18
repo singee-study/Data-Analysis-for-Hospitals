@@ -1,11 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: <code>pandas.Series.fillna()</code>
-- text: <code>pandas.DataFrame.isnull()</code>
-- text: <code>pandas.DataFrame.fillna()</code>
-- text: <code>pandas.DataFrame.dropna()</code>
-- text: <code>pandas.Series.isna()</code>
+is_multiple_choice: false
 files:
 - name: main.py
   visible: true

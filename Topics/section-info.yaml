@@ -2,3 +2,4 @@ content:
 - Working with missing values
 - Summarizing numeric columns
 - Handling missing values
+- Summarizing categorical columns

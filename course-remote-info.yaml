@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/467509/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Fri, 01 Jul 2022 08:08:55 UTC
+update_date: Mon, 04 Jul 2022 00:38:51 UTC
 stages:
 - id: 801
   step: 12046
@@ -165,7 +165,7 @@ topics:
   - title: Basics of functions
     theory_id: 8857
   - title: Properties of functions
-    theory_id: 8865
+    theory_id: 20683
   - title: Introduction to polynomials
     theory_id: 11059
   - title: Interpolation
@@ -177,7 +177,7 @@ topics:
   - title: Intro to NumPy
     theory_id: 9672
   - title: Properties of numerical functions
-    theory_id: 8875
+    theory_id: 20704
   - title: Linear functions
     theory_id: 18811
   - title: Introduction to matplotlib

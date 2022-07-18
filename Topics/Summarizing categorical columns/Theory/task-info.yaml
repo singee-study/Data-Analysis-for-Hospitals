@@ -1,5 +1,4 @@
-type: choice
-is_multiple_choice: false
+type: theory
 files:
 - name: main.py
   visible: true
@@ -7,6 +6,7 @@ files:
     #  You can experiment here, it won’t be checked
 
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/14688#comment
+feedback_link: https://hyperskill.org/learn/step/13351#comment
 status: Solved
 record: -1
+post_submission_on_open: true
