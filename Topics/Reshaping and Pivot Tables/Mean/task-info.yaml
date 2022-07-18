@@ -13,6 +13,12 @@ files:
   visible: true
   text: "#  write your code here \n\n"
   learner_created: false
+- name: data/dataset/input.txt
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/14378#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 18 Jul 2022 05:41:27 UTC
 record: -1
